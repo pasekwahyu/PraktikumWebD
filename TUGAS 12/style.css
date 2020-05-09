@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: poppins;
+}
+.kiri {
+  margin: 1%;
+  width: 20%;
+  border-radius: 0px 0px 0px 0px;
+  border-color: #FFB6C1;
+  border-style: solid;
+  border-width: 3px;
+  height: auto;
+  float: left;
+}
+.logo {
+  display: flex;
+  align-content: center;
+  margin-top: 20px;
+}
+.sub-kiri {
+  text-align: center;
+  color: #065280;
+  background-color: #FFC0CB;
+}
+.sub-kiri1 a {
+  text-align: center;
+  color:  #065279;
+}
+.kanan {
+  background-color: #ffff;
+  margin: 1%;
+  width: 75%;
+  height: auto;
+  float: left;
+  border-radius: 0px 150px 0px 0px;
+  border-color: #FFC0CB;
+  border-style: solid;
+  border-width: 3px;
+}
+.foto {
+  clear: right;
+  height: 400px;
+  background-image: url(./image/background.jpg);
+  background-size: 100%;
+  border-radius: 0px 0px 0px 0px;
+}
+.nav {
+  width: 100%;
+  height: 60px;
+  background-color: #FFC0CB;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav ul li {
+  float: left;
+}
+li a {
+  display: flex;
+  color: #065279;
+  text-align: center;
+  margin-left:105px;
+  text-decoration: none;
+}
+li a:hover {
+  color:  #ffffff;
+}
+.isi {
+padding:0px 50px 50px 50px;
+text-align: justify;
+}
+.isi1 {
+  height:320px;
+  background-color:  #FFC0CB;
+  padding:30px;
+}
+.pengajar {
+  float: left;
+  margin-left:20px ;
+  width: 200px;
+  border-color: #FFC0CB;
+  border-style: solid;
+  margin-bottom: 25px;
+  border-width: 3px;
+}
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.garis {
+  border-bottom: 4px solid #FFC0CB;
+}
+.footer{
+  text-align: center;
+  clear: both;
+  width: 100%;
+  height: 50px;
+  background-color:#FFC0CB ;
+  color: #065279;
+  padding:10px;
+}
